@@ -10,3 +10,69 @@
  * License: MIT
  * License URI: http://opensource.org/licenses/mit-license.php
 */
+
+
+/*--------------------------------------*/
+/*        GLOBAL CLASSES                */
+/*--------------------------------------*/
+
+body {
+  font-family: 'Alegreya SC', serif;
+}
+
+hr {
+  border-color: black;
+  border-width: 1px;
+  margin: 0;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------*/
+/*        HEADER                        */
+/*--------------------------------------*/
+
+
+
+.header-background {
+  width: auto;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-container {
+  display: inline-block;
+}
+
+.header-logo {
+  color: black;
+}
+
+.sub-heading {
+  display: inline-block;
+}
+
+
+/*--------------------------------------*/
+/*        REVIEWS                        */
+/*--------------------------------------*/
+
+.reviews-bg {
+  background-color: rgb(210, 210, 210);
+}

@@ -1,5 +1,5 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer class="container" role="contentinfo">
 
 				<!-- copyright -->
 				<p class="copyright">
@@ -25,6 +25,14 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+
+
+    <script src="<?php echo get_template_directory_uri(); ?>/frameworks/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/frameworks/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+
+		<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 	</body>
 </html>

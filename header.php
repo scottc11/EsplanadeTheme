@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/frameworks/bootstrap-3.3.7/css/bootstrap.min.css">
 
 		<!-- Link all external fonts here -->
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,400i,700" rel="stylesheet">
 
 		<!-- Link the main style.css here -->
 
@@ -33,25 +34,30 @@
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="wrapper">
+		<div>
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="container" role="banner">
 
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
+					<div class="row">
+						<!-- logo -->
+						<div class="col-xs-12 text-align-center">
+							<a class="header-logo"href="<?php echo home_url(); ?>">
+								<div class="logo-container">
+									<h1>Esplanade</h1>
+									<hr>
+									<h3 class="margin-none">Cleaners & Alterations</h3>
+								</div>
+							</a>
+						</div>
+						<!-- /logo -->
+
+						<!-- nav -->
+						<!-- <nav class="nav" role="navigation">
+							<?php html5blank_nav(); ?>
+						</nav> -->
+						<!-- /nav -->
 					</div>
-					<!-- /logo -->
-
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
 
 			</header>
 			<!-- /header -->
