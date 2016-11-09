@@ -32,7 +32,14 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/frameworks/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 
 
-		<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+		<!-- Google Places and Maps API -->
+		<script src="<?php echo get_template_directory_uri(); ?>/js/google-maps-API.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpkOciDS1eWsKdDgE8OGHh7i_0NcCr8VM&libraries=places&callback=initMap" async defer></script>
+
+
+		<!-- Custom Javascript files -->
+		<script src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+
 
 	</body>
 </html>

@@ -70,9 +70,25 @@ hr {
 
 
 /*--------------------------------------*/
-/*        REVIEWS                        */
+/*        INFO                        */
 /*--------------------------------------*/
 
-.reviews-bg {
-  background-color: rgb(210, 210, 210);
+.info-bg {
+  background-color: rgb(33, 33, 33);
+}
+
+.hours-container {
+  color: white;
+}
+
+.location-container {
+  color: white;
+}
+
+.contact-container {
+  color: white;
+}
+
+#google-map {
+  height: 400px;
 }

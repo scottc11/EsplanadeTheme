@@ -21,14 +21,42 @@
 		</section>
 		<!-- /section -->
 
-		<section class="reviews-bg">
+
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!--          INFO                 -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+		<section class="info-bg">
 			<div class="container">
-				<div class="row">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+				<div class="row text-align-center">
+
+					<div class="col-xs-12 hours-container">
+						<h3>We Are Open</h3>
+						<h1>Monday to Friday 7AM - 7PM</h1>
+						<h1>Saturday 9AM - 5PM</h1>
+					</div>
+
 				</div>
 			</div>
+
+			<div id="google-map">
+
+			</div>
+
+			<div class="container">
+				<div class="row text-align-center">
+					<div class="col-xs-12 col-sm-6 location-container">
+						<h3>You can find us @</h3>
+						<h1>25 The Esplanade, Toronto, ON M5E 1W5</h1>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 contact-container">
+						<h3>Call Us</h3>
+						<h1>416-777-9727</h1>
+					</div>
+				</div>
+			</div>
+
 		</section>
 
 
