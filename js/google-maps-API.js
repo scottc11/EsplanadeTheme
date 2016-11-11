@@ -134,14 +134,20 @@ function initReviews(reviews) {
     $(this).find('.review-author').text(name);
     $(this).find('.review-text').text('"' + text +'"');
 
+    // reset all the glyphicons to empty stars
+    $(this).find('.review-rating > li > span ')
+        .removeClass('glyphicon-star')
+        .addClass('glyphicon-star-empty');
+
     // setting the star rating using glyphicons classes
     var $stars = $(this).find('.review-rating > li').toArray();
 
     for (var i = 0; i < rating; i++) {
+
       $($stars[i])
-        .children() // the span element
-        .removeClass('glyphicon-star-empty')
-        .addClass('glyphicon-star');
+          .children() // the span element
+          .removeClass('glyphicon-star-empty')
+          .addClass('glyphicon-star');
     }
 
   });
