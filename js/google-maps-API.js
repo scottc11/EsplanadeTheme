@@ -1,4 +1,6 @@
 
+var reviewsArray = [];
+
 function initMap() {
 
   var mapDiv = document.getElementById('google-map');
@@ -8,6 +10,7 @@ function initMap() {
   var map = new google.maps.Map(mapDiv, {
       center: myLongLat,
       zoom: 17,
+      scrollwheel: false,
       styles: [
     {
         "featureType": "all",
@@ -94,14 +97,60 @@ function initMap() {
   // init a google service
   var service = new google.maps.places.PlacesService(map);
 
+
+
   // get the place reviews
   service.getDetails(request, function(place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
-      console.log(place.reviews);
+      reviewsArray = place.reviews;
+      initReviews(reviewsArray);
     } else {
       console.log("Places Service is not working");
     }
   });
 
+}
+
+
+// ----------------------------------------------------------------
+// this function iterates over all the '.review' elements and
+// applies a corrosponding google review (based on the index) to
+// that containers elements
+// ----------------------------------------------------------------
+
+function initReviews(reviews) {
+
+  var $containers = $('.review').toArray();
+  console.log($containers);
+  console.log(reviews);
+
+  $('.review').each(function( index ) {
+    console.log(index);
+
+    var name = reviews[index].author_name;
+    var text = reviews[index].text;
+    var rating = reviews[index].rating;
+
+    $(this).find('.review-author').text(name);
+    $(this).find('.review-text').text('"' + text +'"');
+
+    // setting the star rating using glyphicons classes
+    var $stars = $(this).find('.review-rating > li').toArray();
+
+    for (var i = 0; i < rating; i++) {
+      $($stars[i])
+        .children() // the span element
+        .removeClass('glyphicon-star-empty')
+        .addClass('glyphicon-star');
+    }
+
+  });
 
 }
+
+$('.review-button').on('click', function() {
+  console.log(reviewsArray);
+  var review = reviewsArray.pop();
+  reviewsArray.unshift(review);
+  initReviews(reviewsArray);
+});

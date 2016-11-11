@@ -37,7 +37,7 @@
 		<div>
 
 			<!-- header -->
-			<header class="container" role="banner">
+			<header class="container margin-top-20" role="banner">
 
 					<div class="row">
 						<!-- logo -->
