@@ -15,7 +15,9 @@
 /*--------------------------------------*/
 /*        GLOBAL CLASSES                */
 /*--------------------------------------*/
-
+.other-font {
+  font-family: 'Allerta Stencil', sans-serif;
+}
 body {
   font-family: 'Alegreya SC', serif;
 }
@@ -146,6 +148,19 @@ hr {
   right: 0;
   cursor: pointer;
 }
+
+/*--------------------------------------*/
+/*        SERVICES                      */
+/*--------------------------------------*/
+
+.service-container {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.service-text {
+  padding: 30px;
+}
+
 
 
 /*--------------------------------------*/

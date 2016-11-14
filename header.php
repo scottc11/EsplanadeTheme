@@ -19,6 +19,7 @@
 
 		<!-- Link all external fonts here -->
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,400i,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
 
 		<!-- Link the main style.css here -->
 

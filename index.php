@@ -86,13 +86,74 @@
 		</section>
 		<!-- /section -->
 
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!--          SERVICES              -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+		<section class="services-bg">
+			<div class="container margin-top-40">
+
+				<div class="row">
+
+					<div class="col-xs-12 text-align-center">
+
+						<hr>
+
+						<h2>our services include</h2>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-xs-12 col-sm-4 margin-top-20">
+						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/dry_cleaning.png);">
+							<h3>This is the Text</h3>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 margin-top-20">
+						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/laundered_shirts.png);">
+							<h3>This is the Text</h3>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 margin-top-20">
+						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/household_items.png);">
+							<h3>This is the Text</h3>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 margin-top-20">
+						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/outerwear.png);">
+							<h3>This is the Text</h3>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 margin-top-20">
+						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/repairs_and_alterations.png);">
+							<img src="<?php echo get_te<h3>This is the Text</h3>mplate_directory_uri(); ?>/img/repairs_and_alterations.png" alt="" />
+
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 margin-top-20">
+						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/leather_and_suede.png);">
+							<h3>This is the Text</h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
 
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 		<!--          INFO                 -->
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 		<section class="info-bg">
-			<div class="container">
+			<div class="container margin-top-40">
 				<div class="row text-align-center margin-top-40">
 
 					<div class="col-xs-12 hours-container">

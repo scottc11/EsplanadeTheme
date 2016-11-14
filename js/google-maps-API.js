@@ -154,6 +154,7 @@ function initReviews(reviews) {
 
 }
 
+
 $('.review-button').on('click', function() {
   console.log(reviewsArray);
   var review = reviewsArray.pop();
