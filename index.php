@@ -13,7 +13,7 @@
 		<section class="container margin-top-40 margin-bottom-40">
 			<div class="row margin-bottom-20">
 				<div class="text-align-center">
-					<div class="sub-heading">
+					<div class="slogan">
 						<h2 class="margin-none">Serving the local community since 1998</h2>
 						<hr>
 					</div>
@@ -98,8 +98,12 @@
 					<div class="col-xs-12 text-align-center">
 
 						<hr>
+						<hr>
 
-						<h2>our services include</h2>
+						<div class="margin-top-40 underlined-header-container">
+							<h2 class="margin-none">our services include</h2>
+							<hr class="underline-hr">
+						</div>
 
 					</div>
 
@@ -107,40 +111,53 @@
 
 				<div class="row">
 
-					<div class="col-xs-12 col-sm-4 margin-top-20">
+					<div class="col-xs-12 col-sm-6 col-md-4 margin-top-20">
 						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/dry_cleaning.png);">
-							<h3>This is the Text</h3>
+							<div class="service-text">
+								<h2>Dry Cleaning</h2>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 margin-top-20">
+					<div class="col-xs-12 col-sm-6 col-md-4 margin-top-20">
 						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/laundered_shirts.png);">
-							<h3>This is the Text</h3>
+							<div class="service-text">
+								<h2>Laundered Shirts</h2>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 margin-top-20">
+					<div class="col-xs-12 col-sm-6 col-md-4 margin-top-20">
 						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/household_items.png);">
-							<h3>This is the Text</h3>
+							<div class="service-text">
+								<h2>Household Items</h2>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 margin-top-20">
+					<div class="col-xs-12 col-sm-6 col-md-4 margin-top-20">
 						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/outerwear.png);">
-							<h3>This is the Text</h3>
+							<div class="service-text">
+								<h2>Outerwear</h2>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 margin-top-20">
+					<div class="col-xs-12 col-sm-6 col-md-4 margin-top-20">
 						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/repairs_and_alterations.png);">
-							<img src="<?php echo get_te<h3>This is the Text</h3>mplate_directory_uri(); ?>/img/repairs_and_alterations.png" alt="" />
-
+							<div class="service-text">
+								<h2>Repairs & Alterations</h2>
+							</div>
 						</div>
 					</div>
 
-					<div class="col-xs-12 col-sm-4 margin-top-20">
+					<div class="col-xs-12 col-sm-6 col-md-4 margin-top-20">
 						<div class="service-container" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/leather_and_suede.png);">
-							<h3>This is the Text</h3>
+
+							<div class="service-text">
+								<h2>Leather & Suede</h2>
+							</div>
+
 						</div>
 					</div>
 
@@ -157,9 +174,12 @@
 				<div class="row text-align-center margin-top-40">
 
 					<div class="col-xs-12 hours-container">
-						<h3>We Are Open</h3>
-						<h1>Monday to Friday 7AM - 7PM</h1>
-						<h1>Saturday 9AM - 5PM</h1>
+						<div class="underlined-header-container">
+							<h3 class="margin-none">We Are Open</h3>
+							<hr class="underline-hr">
+						</div>
+						<h1>Monday to Friday <span class="gold-font">7AM - 7PM</span></h1>
+						<h1>Saturday <span class="gold-font">9AM - 5PM</span></h1>
 					</div>
 
 				</div>
@@ -172,15 +192,15 @@
 			</div>
 
 			<div class="container">
-				<div class="row text-align-center margin-top-40">
+				<div class="row text-align-center margin-top-40 margin-bottom-40">
 					<div class="col-xs-12 col-sm-6 location-container">
 						<h3>You can find us @</h3>
-						<h1>25 The Esplanade, Toronto, ON M5E 1W5</h1>
+						<h1 class="gold-font">25 The Esplanade, Toronto, ON M5E 1W5</h1>
 					</div>
 
 					<div class="col-xs-12 col-sm-6 contact-container">
 						<h3>Call Us</h3>
-						<h1>416-777-9727</h1>
+						<h1 class="gold-font">416-777-9727</h1>
 					</div>
 				</div>
 			</div>

@@ -18,6 +18,7 @@
 .other-font {
   font-family: 'Allerta Stencil', sans-serif;
 }
+
 body {
   font-family: 'Alegreya SC', serif;
 }
@@ -28,10 +29,14 @@ hr {
   margin: 0;
 }
 
-.review-hr {
-  border-color: rgb(182, 182, 182);
+.underlined-header-container {
+  display: inline-block;
+}
+
+.underline-hr {
+  border-color: rgb(218, 165, 32);
   border-width: 1px;
-  margin: 10px 20% 0 20%;
+  margin: 0;
 }
 
 .text-align-center {text-align: center;}
@@ -40,6 +45,16 @@ hr {
 .margin-none {margin: 0;}
 .margin-top-20 {margin-top: 20px;}
 .margin-bottom-20 {margin-bottom: 20px;}
+
+.gold-font {
+  color: rgb(218, 165, 32);
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 /*--------------------------------------*/
 /*        HEADER                        */
@@ -63,7 +78,15 @@ hr {
   color: black;
 }
 
+.logo-text {
+  font-size: 3em;
+}
+
 .sub-heading {
+  margin-top: 10px;
+}
+
+.slogan {
   display: inline-block;
 }
 
@@ -81,6 +104,11 @@ hr {
   text-align: center;
 }
 
+.review-hr {
+  border-color: rgb(182, 182, 182);
+  border-width: 1px;
+  margin: 10px 20% 0 20%;
+}
 
 .review-author {
   margin: 0;
@@ -92,6 +120,7 @@ hr {
 }
 
 .review ul li {
+  color: rgb(218, 165, 32);
   display: inline-block;
 }
 
@@ -154,11 +183,20 @@ hr {
 /*--------------------------------------*/
 
 .service-container {
-  font-family: 'Allerta Stencil', sans-serif;
+  text-align: center;
+  /*font-family: 'Allerta Stencil', sans-serif;*/
+  height: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .service-text {
-  padding: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 

@@ -24,7 +24,7 @@
 		<!-- Link the main style.css here -->
 
 		<!-- Link additional CSS files here -->
-
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
 
 
 		<?php wp_head(); ?>
@@ -45,9 +45,9 @@
 						<div class="col-xs-12 text-align-center">
 							<a class="header-logo"href="<?php echo home_url(); ?>">
 								<div class="logo-container">
-									<h1>Esplanade</h1>
+									<h1 class="logo-text">Esplanade</h1>
 									<hr>
-									<h3 class="margin-none">Cleaners & Alterations</h3>
+									<h3 class="sub-heading">Cleaners <span class="gold-font">&</span> Alterations</h3>
 								</div>
 							</a>
 						</div>
