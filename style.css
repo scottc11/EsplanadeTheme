@@ -60,7 +60,21 @@ hr {
 /*        HEADER                        */
 /*--------------------------------------*/
 
+.header-nav {
+  text-align: center;
+}
 
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2em;
+
+}
+
+.header-nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
 
 .header-background {
   width: auto;
@@ -95,7 +109,7 @@ hr {
 /*--------------------------------------*/
 
 .reviews-container {
-  min-height: 300px;
+  min-height: 200px;
   height: auto;
   text-align: center;
 }
@@ -128,9 +142,13 @@ hr {
   color: black;
 }
 .review-left {
+  max-height: 200px;
+  overflow-y: hidden;
   color: rgb(182, 182, 182);
 }
 .review-right {
+  max-height: 200px;
+  overflow-y: hidden;
   color: rgb(182, 182, 182);
 }
 
@@ -163,19 +181,25 @@ hr {
 }
 
 .review-button-container {
-  height: 100%;
-
+  min-height: 200px;
+  text-align: center;
 }
 
 .review-button {
   position: relative;
-  text-align: center;
   margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
+}
+.button-spacer {
+  display: inline-block;
+  text-align: center;
+}
+
+.review-button-left,
+.review-button-right {
+  display: inline-block;
 }
 
 /*--------------------------------------*/
@@ -202,7 +226,7 @@ hr {
 
 
 /*--------------------------------------*/
-/*        INFO                        */
+/*        INFO                          */
 /*--------------------------------------*/
 
 .info-bg {
@@ -222,5 +246,17 @@ hr {
 }
 
 #google-map {
-  height: 400px;
+  height: 500px;
+}
+
+
+/*--------------------------------------*/
+/*        FOOTER                        */
+/*--------------------------------------*/
+.footer-heading {
+  margin: 10px 0 5px 0;
+}
+
+.copyright {
+  margin-top: 100px;
 }

@@ -23,13 +23,13 @@
 			<div class="row">
 				<div class="reviews-container">
 
-					<div class="review-button-container review-button-left col-xs-1">
+					<div class="review-button-container review-button-left hidden-xs hidden-sm col-md-1">
 						<div class="review-button">
 							<h2><span class="glyphicon glyphicon-chevron-left"></span></h2>
 						</div>
 					</div>
 
-					<div class="review review-left col-xs-10 col-md-3">
+					<div class="review review-left hidden-xs hidden-sm col-md-3">
 						<div id="left-grad">
 
 						</div>
@@ -45,7 +45,7 @@
 						<hr class="review-hr">
 					</div>
 
-					<div class="review review-center col-xs-10 col-md-4">
+					<div class="review review-center col-xs-12 col-md-4">
 						<ul class="review-rating">
 							<li><span class="glyphicon glyphicon-star-empty"></span></li>
 							<li><span class="glyphicon glyphicon-star-empty"></span></li>
@@ -58,7 +58,7 @@
 						<hr class="review-hr">
 					</div>
 
-					<div class="review review-right col-xs-10 col-md-3">
+					<div class="review review-right hidden-xs hidden-sm col-md-3">
 						<div id="right-grad">
 
 						</div>
@@ -74,8 +74,20 @@
 						<hr class="review-hr">
 					</div>
 
-					<div class="review-button-container review-button-right col-xs-1">
+					<div class="review-button-container review-button-right hidden-xs hidden-sm col-md-1">
 						<div class="review-button">
+							<h2><span class="glyphicon glyphicon-chevron-right"></span></h2>
+						</div>
+					</div>
+
+					<div class="review-button-container hidden-xs-12 hidden-md hidden-lg">
+						<div class="review-button-left">
+							<h2><span class="glyphicon glyphicon-chevron-left"></span></h2>
+						</div>
+						<div class="button-spacer">
+							<h2>...</h2>
+						</div>
+						<div class="review-button-right">
 							<h2><span class="glyphicon glyphicon-chevron-right"></span></h2>
 						</div>
 					</div>
@@ -194,7 +206,7 @@
 			<div class="container">
 				<div class="row text-align-center margin-top-40 margin-bottom-40">
 					<div class="col-xs-12 col-sm-6 location-container">
-						<h3>You can find us @</h3>
+						<h3>You can find us at</h3>
 						<h1 class="gold-font">25 The Esplanade, Toronto, ON M5E 1W5</h1>
 					</div>
 

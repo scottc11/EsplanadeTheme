@@ -10,6 +10,7 @@ function initMap() {
   var map = new google.maps.Map(mapDiv, {
       center: myLongLat,
       zoom: 17,
+      draggable: false,
       scrollwheel: false,
       styles: [
     {

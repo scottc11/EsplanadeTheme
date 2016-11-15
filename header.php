@@ -25,6 +25,7 @@
 
 		<!-- Link additional CSS files here -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/transitions.css">
 
 
 		<?php wp_head(); ?>
@@ -52,6 +53,15 @@
 							</a>
 						</div>
 						<!-- /logo -->
+
+						<div class="header-nav">
+							<!-- <p><span class="menu-burger glyphicon glyphicon-menu-hamburger"></span></p> -->
+							<ul>
+								<li>home</li>
+								<li>contact</li>
+								<li>blog</li>
+							</ul>
+						</div>
 
 						<!-- nav -->
 						<!-- <nav class="nav" role="navigation">
