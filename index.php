@@ -4,7 +4,7 @@
 
 
 		<!-- MAIN IMAGE -->
-		<section class="header-background margin-top-40" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_large.jpg);" ></section>
+		<section class="header-background box-shadow margin-top-40" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_large.jpg);" ></section>
 		<!-- /MAIN IMAGE -->
 
 
@@ -181,7 +181,7 @@
 		<!--          INFO                 -->
 		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-		<section class="info-bg">
+		<section class="info-bg box-shadow">
 			<div class="container margin-top-40">
 				<div class="row text-align-center margin-top-40">
 

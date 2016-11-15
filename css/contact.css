@@ -1,0 +1,51 @@
+/*--------------------------------------*/
+/*        CONTACT PAGE CLASSES          */
+/*--------------------------------------*/
+
+#google-maps {
+  width: 100%;
+  height: 400px;
+}
+
+.contact-bg {
+  background-color: rgb(101, 101, 101);
+}
+
+.wpcf7 {
+  width: 100%;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  background-color: rgb(223, 223, 223);
+  border: none;
+  font-weight: bold;
+}
+
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 textarea:focus {
+  border: 1px solid rgb(218, 165, 32);
+}
+
+.wpcf7 input[type=submit] {
+  width: auto;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  color: black;
+  font-weight: normal;
+  background-color: rgb(218, 165, 32);
+}
+
+.wpcf7 input[type=submit]:active {
+    position:relative;
+    top:1px;
+}

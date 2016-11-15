@@ -16,7 +16,7 @@
 /*        GLOBAL CLASSES                */
 /*--------------------------------------*/
 .other-font {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
@@ -27,6 +27,10 @@ hr {
   border-color: black;
   border-width: 1px;
   margin: 0;
+}
+
+.box-shadow {
+   box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
 .underlined-header-container {
@@ -45,10 +49,10 @@ hr {
 .margin-none {margin: 0;}
 .margin-top-20 {margin-top: 20px;}
 .margin-bottom-20 {margin-bottom: 20px;}
+.padding-top-bottom-40 {padding-top: 40px; padding-bottom: 40px;}
 
-.gold-font {
-  color: rgb(218, 165, 32);
-}
+.gold-font {color: rgb(218, 165, 32);}
+.color-accent-white {color: white;}
 
 .vertical-center {
   position: relative;
@@ -190,7 +194,7 @@ hr {
   margin: auto;
   top: 50%;
   transform: translateY(-50%);
-  cursor: pointer;
+
 }
 .button-spacer {
   display: inline-block;
@@ -200,6 +204,7 @@ hr {
 .review-button-left,
 .review-button-right {
   display: inline-block;
+  cursor: pointer;
 }
 
 /*--------------------------------------*/
@@ -253,6 +258,29 @@ hr {
 /*--------------------------------------*/
 /*        FOOTER                        */
 /*--------------------------------------*/
+
+.footer-nav {
+  text-align: right;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  font-size: 3em;
+
+}
+
+.footer-nav ul li {
+}
+
+.footer-logo-container {
+  text-align: left;
+}
+
+.footer-logo {
+  color: black;
+}
+
 .footer-heading {
   margin: 10px 0 5px 0;
 }

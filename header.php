@@ -19,13 +19,14 @@
 
 		<!-- Link all external fonts here -->
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,400i,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
 
 		<!-- Link the main style.css here -->
 
 		<!-- Link additional CSS files here -->
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/transitions.css">
+		<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css"> -->
+		<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/transitions.css"> -->
 
 
 		<?php wp_head(); ?>
@@ -55,7 +56,6 @@
 						<!-- /logo -->
 
 						<div class="header-nav">
-							<!-- <p><span class="menu-burger glyphicon glyphicon-menu-hamburger"></span></p> -->
 							<ul>
 								<li>home</li>
 								<li>contact</li>

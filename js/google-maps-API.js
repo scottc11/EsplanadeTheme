@@ -156,9 +156,14 @@ function initReviews(reviews) {
 }
 
 
-$('.review-button').on('click', function() {
-  console.log(reviewsArray);
-  var review = reviewsArray.pop();
-  reviewsArray.unshift(review);
+$('.review-button-right').on('click', function() {
+  var review = reviewsArray.pop(); // remove last element
+  reviewsArray.unshift(review); //append element to front of array
+  initReviews(reviewsArray);
+});
+
+$('.review-button-left').on('click', function() {
+  var review = reviewsArray.shift(); // remove first element in array
+  reviewsArray.push(review); // append to end of array
   initReviews(reviewsArray);
 });

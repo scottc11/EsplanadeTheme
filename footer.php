@@ -3,9 +3,9 @@
 
 				<div class="row">
 
-					<div class="col-xs-12 col-sm-9">
+					<div class="footer-logo-container col-xs-12 col-sm-9">
 
-						<a class="header-logo"href="<?php echo home_url(); ?>">
+						<a class="footer-logo"href="<?php echo home_url(); ?>">
 							<div class="logo-container text-align-center">
 								<h1 class="logo-text footer-heading">Esplanade</h1>
 								<hr>
@@ -22,7 +22,13 @@
 
 
 					<div class="col-xs-12 col-sm-3">
-						
+						<div class="footer-nav">
+							<ul class="other-font">
+								<li>home</li>
+								<li>contact</li>
+								<li>blog</li>
+							</ul>
+						</div>
 					</div>
 
 
