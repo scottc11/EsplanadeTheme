@@ -55,18 +55,10 @@
 						</div>
 						<!-- /logo -->
 
-						<div class="header-nav">
-							<ul>
-								<li>home</li>
-								<li>contact</li>
-								<li>blog</li>
-							</ul>
-						</div>
-
 						<!-- nav -->
-						<!-- <nav class="nav" role="navigation">
+						<nav class="header-nav-container" role="navigation">
 							<?php html5blank_nav(); ?>
-						</nav> -->
+						</nav>
 						<!-- /nav -->
 					</div>
 

@@ -2,9 +2,37 @@
 
 	<main role="main">
 
+		<style media="screen">
+
+			@media only screen and (min-width : 1200px) {
+				.header-background {
+					background-image: url('<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_large.jpg');
+				}
+			}
+
+			@media only screen and (max-width : 1200px) {
+				.header-background {
+					background-image: url('<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_large.jpg');
+				}
+			}
+
+			@media only screen and (max-width : 992px) {
+				.header-background {
+					background-image: url('<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_medium.jpg');
+				}
+			}
+
+			@media only screen and (max-width : 480px) {
+				.header-background {
+					background-image: url('<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_small_cropped.jpg');
+				}
+			}
+
+
+		</style>
 
 		<!-- MAIN IMAGE -->
-		<section class="header-background box-shadow margin-top-40" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/backgrounds/header_photo_large.jpg);" ></section>
+		<section class="header-background box-shadow margin-top-40" style="" ></section>
 		<!-- /MAIN IMAGE -->
 
 

@@ -21,12 +21,27 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-  .footer-nav {
+  .footer-nav-container {
     text-align: center;
   }
 
   .footer-logo-container {
     text-align: center;
+  }
+
+  .contact-heading  {
+    text-align: center;
+  }
+  .contact-container {
+    text-align: center;
+  }
+
+  .wpcf7 input[type=submit] {
+    min-width: 100%;
+  }
+
+  .copyright {
+    margin-top: 20px;
   }
 
 }

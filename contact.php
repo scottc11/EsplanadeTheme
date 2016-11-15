@@ -19,7 +19,7 @@ Template Name: Contact Page
 
       <div class="row">
 
-        <div class="col-xs-12">
+        <div class="contact-heading col-xs-12">
           <div class="underlined-header-container">
             <h1 class="margin-none margin-top-20 color-accent-white">Contact Us</h1>
             <hr class="underline-hr">
