@@ -23,6 +23,7 @@
 
 
 		<!-- Link the main style.css here -->
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/loader.css">
 
 		<!-- Link additional CSS files here -->
 		<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css"> -->

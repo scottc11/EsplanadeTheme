@@ -112,6 +112,11 @@ function initMap() {
 
 }
 
+function showReviews() {
+  $('#loader').attr('style', 'display: none;');
+  $('.reviews-container').removeClass('fade-out');
+}
+
 
 // ----------------------------------------------------------------
 // this function iterates over all the '.review' elements and
@@ -153,6 +158,7 @@ function initReviews(reviews) {
 
   });
 
+  showReviews();
 }
 
 

@@ -54,6 +54,8 @@ hr {
 .gold-font {color: rgb(218, 165, 32);}
 .color-accent-white {color: white;}
 
+.fade-out {opacity: 0;}
+
 .vertical-center {
   position: relative;
   top: 50%;
@@ -128,6 +130,8 @@ hr {
 /*        GOOGLE REVIEWS                */
 /*--------------------------------------*/
 
+
+
 .reviews-container {
   min-height: 200px;
   height: auto;
@@ -150,7 +154,7 @@ hr {
 
 .review ul {
   padding: 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .review ul li {
@@ -202,16 +206,16 @@ hr {
 
 .review-button-container {
   min-height: 200px;
-  text-align: center;
 }
 
 .review-button {
-  position: relative;
-  margin: auto;
-  top: 50%;
-  transform: translateY(-50%);
-
+  height: 200px;
+  width: 5px;
+  text-align: center;
 }
+
+
+
 .button-spacer {
   display: inline-block;
   text-align: center;

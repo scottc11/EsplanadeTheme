@@ -40,20 +40,30 @@
 		<!-- GOOGLE REVIEWS -->
 		<section class="container margin-top-40 margin-bottom-40">
 			<div class="row margin-bottom-20">
-				<div class="text-align-center">
+				<div class="col-xs-12 text-align-center">
 					<div class="slogan">
 						<h2 class="margin-none">Serving the local community since 1998</h2>
 						<hr>
 					</div>
+
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="reviews-container">
+			<div class="row text-align-center">
+
+				<div id="loader" class="spinner">
+					<div class="rect1"></div>
+					<div class="rect2"></div>
+					<div class="rect3"></div>
+					<div class="rect4"></div>
+					<div class="rect5"></div>
+				</div>
+
+				<div class="reviews-container fade-out margin-top-20">
 
 					<div class="review-button-container review-button-left hidden-xs hidden-sm col-md-1">
 						<div class="review-button">
-							<h2><span class="glyphicon glyphicon-chevron-left"></span></h2>
+							<h2 class="vertical-center"><span class="glyphicon glyphicon-chevron-left"></span></h2>
 						</div>
 					</div>
 
@@ -104,7 +114,7 @@
 
 					<div class="review-button-container review-button-right hidden-xs hidden-sm col-md-1">
 						<div class="review-button">
-							<h2><span class="glyphicon glyphicon-chevron-right"></span></h2>
+							<h2 class="vertical-center"><span class="glyphicon glyphicon-chevron-right"></span></h2>
 						</div>
 					</div>
 
