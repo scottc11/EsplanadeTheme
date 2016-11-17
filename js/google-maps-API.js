@@ -117,6 +117,14 @@ function showReviews() {
   $('.reviews-container').removeClass('fade-out');
 }
 
+function initializeName(nameString) {
+  var array = nameString.split(" ");
+  var firstName = array[0];
+  var lastInitial = array[1].split("")[0];
+  var name = "- " + firstName + " " + lastInitial + ".";
+  return name;
+}
+
 
 // ----------------------------------------------------------------
 // this function iterates over all the '.review' elements and
@@ -127,13 +135,11 @@ function showReviews() {
 function initReviews(reviews) {
 
   var $containers = $('.review').toArray();
-  console.log($containers);
-  console.log(reviews);
 
   $('.review').each(function( index ) {
-    console.log(index);
 
-    var name = reviews[index].author_name;
+    var name = initializeName(reviews[index].author_name);
+    
     var text = reviews[index].text;
     var rating = reviews[index].rating;
 
