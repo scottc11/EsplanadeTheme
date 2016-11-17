@@ -40,7 +40,7 @@ Template Name: Contact Page
             <h4>Contact Form</h4>
           </div>
 
-          <?php echo do_shortcode(' [contact-form-7 id="4" title="Contact form 1" ]'); ?>
+          <?php echo do_shortcode(' [contact-form-7 id="8" title="Contact form 1" ]'); ?>
 
         </div>
 
