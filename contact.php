@@ -33,7 +33,7 @@ Template Name: Contact Page
 
           <div class="margin-top-20">
             <h4>Give us a call at:</h4>
-            <h3 class="gold-font">(416) 777-9727</h3>
+            <h3><a href="tel:416-777-9727" class="gold-font">416-777-9727</a></h3>
           </div>
 
           <div class="margin-top-20">
@@ -53,7 +53,7 @@ Template Name: Contact Page
 
           <div>
             <h4 class="color-accent-white">Or visit us in person:</h4>
-            <h4 class="gold-font">25 The Esplanade, Toronto, ON M5E 1W5</h4>
+            <h4><a class="gold-font" href="http://maps.apple.com/?q=43.646234,-79.375499">25 The Esplanade, Toronto, ON M5E 1W5</a></h4>
           </div>
 
           <div id="google-map">

@@ -103,7 +103,20 @@ function initMap() {
   // get the place reviews
   service.getDetails(request, function(place, status) {
     if (status == google.maps.places.PlacesServiceStatus.OK) {
-      reviewsArray = place.reviews;
+
+      for (var i = 0; i < place.reviews.length; i++) {
+        if (place.reviews[i].rating >= 4) {
+          reviewsArray.push(place.reviews[i]);
+          reviewsArray.sort(function(a, b) {
+            if (a.rating < b.rating)
+              return -1;
+            if (a.rating > b.rating)
+              return 1;
+            return 0;
+          });
+        }
+      }
+
       initReviews(reviewsArray);
     } else {
       console.log("Places Service is not working");
@@ -139,7 +152,7 @@ function initReviews(reviews) {
   $('.review').each(function( index ) {
 
     var name = initializeName(reviews[index].author_name);
-    
+
     var text = reviews[index].text;
     var rating = reviews[index].rating;
 
@@ -168,13 +181,13 @@ function initReviews(reviews) {
 }
 
 
-$('.review-button-right').on('click', function() {
+$('.review-button-left').on('click', function() {
   var review = reviewsArray.pop(); // remove last element
   reviewsArray.unshift(review); //append element to front of array
   initReviews(reviewsArray);
 });
 
-$('.review-button-left').on('click', function() {
+$('.review-button-right').on('click', function() {
   var review = reviewsArray.shift(); // remove first element in array
   reviewsArray.push(review); // append to end of array
   initReviews(reviewsArray);

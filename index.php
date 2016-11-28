@@ -248,12 +248,12 @@
 				<div class="row text-align-center margin-top-40 margin-bottom-40">
 					<div class="col-xs-12 col-sm-6 location-container">
 						<h3>You can find us at</h3>
-						<h1 class="gold-font">25 The Esplanade, Toronto, ON M5E 1W5</h1>
+						<h1><a class="gold-font" href="http://maps.apple.com/?q=43.646234,-79.375499">25 The Esplanade, Toronto, ON M5E 1W5</a></h1>
 					</div>
 
 					<div class="col-xs-12 col-sm-6 contact-container">
 						<h3>Call Us</h3>
-						<h1 class="gold-font">416-777-9727</h1>
+						<h1><a href="tel:416-777-9727" class="gold-font">416-777-9727</a></h1>
 					</div>
 				</div>
 			</div>
