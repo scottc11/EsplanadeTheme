@@ -102,10 +102,13 @@ function initMap() {
 
   // get the place reviews
   service.getDetails(request, function(place, status) {
+    console.log(place.reviews.length);
     if (status == google.maps.places.PlacesServiceStatus.OK) {
+
 
       for (var i = 0; i < place.reviews.length; i++) {
         if (place.reviews[i].rating >= 4) {
+          console.log(place.reviews.length);
           reviewsArray.push(place.reviews[i]);
           reviewsArray.sort(function(a, b) {
             if (a.rating < b.rating)
@@ -122,8 +125,15 @@ function initMap() {
       console.log("Places Service is not working");
     }
   });
-
 }
+
+
+// If number of chars in review exceed <300>, set 'read more'
+// button to display: block;
+// On button click - set max-height = none;
+
+
+
 
 function showReviews() {
   $('#loader').attr('style', 'display: none;');
@@ -131,11 +141,19 @@ function showReviews() {
 }
 
 function initializeName(nameString) {
+
   var array = nameString.split(" ");
-  var firstName = array[0];
-  var lastInitial = array[1].split("")[0];
-  var name = "- " + firstName + " " + lastInitial + ".";
-  return name;
+
+  if (array.length === 1) {
+    return nameString;
+  }
+  else {
+    var firstName = array[0];
+    var lastInitial = array[1].split("")[0];
+    var name = "- " + firstName + " " + lastInitial + ".";
+    return name;
+  }
+
 }
 
 
@@ -147,7 +165,7 @@ function initializeName(nameString) {
 
 function initReviews(reviews) {
 
-  var $containers = $('.review').toArray();
+  // var $containers = $('.review').toArray();
 
   $('.review').each(function( index ) {
 
@@ -180,6 +198,9 @@ function initReviews(reviews) {
   showReviews();
 }
 
+// ------------------
+// BUTTONS
+// ------------------
 
 $('.review-button-left').on('click', function() {
   var review = reviewsArray.pop(); // remove last element
@@ -191,4 +212,18 @@ $('.review-button-right').on('click', function() {
   var review = reviewsArray.shift(); // remove first element in array
   reviewsArray.push(review); // append to end of array
   initReviews(reviewsArray);
+});
+
+// center review expander for extra long reviews
+$('.read-more-button').on('click', function() {
+  // if user wants to read more...
+  if ($(this).text() == 'read more...') {
+    $('.center-review-text-container').attr('style', 'max-height: none;');
+    $(this).text('read less...')
+  }
+  // if user wants to read less...
+  else {
+    $('.center-review-text-container').attr('style', 'max-height: 300px;');
+    $(this).text('read more...')
+  }
 });
